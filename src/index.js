@@ -7,9 +7,9 @@ import { FilterProvider } from "./context/filter_context";
 
 ReactDOM.render(
       <ProductsProvider>
-      {/* <FilterProvider> */}
+      <FilterProvider>
           <App />
-      {/* </FilterProvider> */}
+      </FilterProvider>
     </ProductsProvider>,
   document.getElementById("root")
 );

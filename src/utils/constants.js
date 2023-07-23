@@ -21,6 +21,5 @@ export const links = [
   }
 ];
 
-export const products_url = "https://apimocha.com/furniture-react/products";
-export const single_product_url =
-  "https://apimocha.com/furniture-react/product/id=";
+export const products_url = "https://raw.githubusercontent.com/KamsayinySrikaran/product/main/data.JSON";
+export const single_product_url = `https://raw.githubusercontent.com/KamsayinySrikaran/product/main/data.JSON?id=`;
